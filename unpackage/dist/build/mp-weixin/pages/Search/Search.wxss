@@ -1,0 +1,69 @@
+
+.content {
+	width: 95%;
+	margin: 0 auto;
+	height: 40rem;
+}
+.header{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.header input{
+	border: 1px solid #999;
+	-webkit-border-radius: .2rem;
+	        border-radius: .2rem;
+	font-size: .8rem;
+	padding: .2rem;
+	width: 80%;
+}
+.quxiao{
+	margin: auto auto;
+	width: 15%;
+	text-align: center;
+	font-size: .8rem;
+	background: #0A98D5;
+	-webkit-border-radius: .5rem;
+	        border-radius: .5rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	color: #FFECEC;
+}
+.title{
+	font-size: 1.2rem;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	font-weight: bold;
+	margin:1.5rem 0 .1rem .5rem;
+}
+.item_f{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.item{
+	font-size: .6rem;
+	padding: .2rem;
+	border: 1px solid #dbd7d7;
+	-webkit-border-radius: 1.5rem;
+	        border-radius: 1.5rem;
+	margin: .2rem .4rem;
+	background: #dbd7d7;
+}
+.uni-media-list-body{
+	font-size: .8rem;
+	padding: .5rem 0 .1rem;
+	border-bottom: 1px solid #EEEEEE;
+	background: #dbd7d7;
+	-webkit-border-radius: .2rem;
+	        border-radius: .2rem;
+}
+

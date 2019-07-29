@@ -1,0 +1,120 @@
+
+@font-face {
+	font-family: 'iconfont';
+	src: url(data:font/ttf;base64,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);
+}
+.test {
+	font-family: iconfont;
+}
+.content {
+	background: #fcefe8;
+	padding-top: 2rem;
+}
+.header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	padding: 15rpx 0;
+}
+.header ._h1 {
+	font-size: 1rem;
+}
+.header .test {
+	color: #ccc;
+	margin-top: .2rem;
+}
+.header input {
+	border: 1rpx solid #cccccc;
+	-webkit-box-shadow: 0px 0px 5rpx #ccc;
+	        box-shadow: 0px 0px 5rpx #ccc;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	width: 70%;
+	font-size: 20rpx;
+}
+.uni-padding-wrap {
+	width: 95%;
+	margin: 0 auto;
+}
+.swiper {
+	height: 360rpx;
+}
+.swiper-item {
+	width: 100%;
+	height: 360rpx;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.bigbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.bigbox .more {
+	padding: 1.2rem 1.5rem 0 0;
+	font-size: .5rem;
+}
+.sheet ._h2,
+.HotMV ._h2 {
+	font-size: 40rpx;
+	padding: .5rem;
+}
+.box {
+	width: 95%;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: wrap;
+	    -ms-flex-flow: wrap;
+	        flex-flow: wrap;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.sheet_item {
+	width: 33%;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	padding: 0.2rem 0;
+}
+.sheet_item image {
+	margin: 0 5%;
+	width: 90%;
+	height: 5.5rem;
+	-webkit-box-shadow: 2px 2px 5rpx #CCCCCC;
+	        box-shadow: 2px 2px 5rpx #CCCCCC;
+}
+.sheet_item ._p,
+.mv_item ._p {
+	font-size: .5rem;
+	color: #666666;
+	width: 92%;
+	margin: 0 auto;
+}
+.HotMV .box {
+	width: 95%;
+	margin: 0 auto;
+}
+.mv_item {
+	width: 48%;
+	margin: 0 1%;
+}
+.mv_item image {
+	height: 6rem;
+	width: 100%;
+	-webkit-box-shadow: 2px 2px 5rpx #CCCCCC;
+	        box-shadow: 2px 2px 5rpx #CCCCCC;
+}
+
+page::after{position: fixed;left: -1000px;top: -1000px;content: url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}

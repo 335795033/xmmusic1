@@ -1,0 +1,112 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/Mymusic/Mymusic",
+            "style" : {
+				"navigationBarTitleText": "我的音乐",
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/Rank/Rank",
+            "style" : {
+				"navigationBarTitleText": "排行",
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"navigationBarTitleText": "个人",
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/HotList/HotList",
+            "style" : {
+				"navigationBarTitleText": "歌单详情"
+				// "navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/Play/Play",
+            "style" : {
+				"navigationBarTitleText": "播放页",
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/MvPlay/MvPlay",
+            "style" : {
+				"navigationBarTitleText": "MV"
+				// "navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/MoreList/MoreList",
+            "style" : {
+				"navigationBarTitleText": "热门歌单"
+				// "navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/MoreMv/MoreMv",
+            "style" : {
+				"navigationBarTitleText": "更多MV"
+				// "navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/huakuai/huakuai",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Search/Search",
+            "style" : {
+				"navigationBarTitleText": "搜索"
+				// "navigationStyle":"custom"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+    "color": "#515151",
+    "selectedColor": "#e16531",
+    "borderStyle": "black",
+    "backgroundColor": "#fcefe8",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "static/1.png",
+        "selectedIconPath": "static/2.png",
+        "text": "发现"
+    }, {
+        "pagePath": "pages/Mymusic/Mymusic",
+        "iconPath": "static/3.png",
+        "selectedIconPath": "static/4.png",
+        "text": "我的音乐"
+    }, {
+        "pagePath": "pages/Rank/Rank",
+        "iconPath": "static/5.png",
+        "selectedIconPath": "static/6.png",
+        "text": "排行榜"
+    },{
+        "pagePath": "pages/me/me",
+        "iconPath": "static/7.png",
+        "selectedIconPath": "static/8.png",
+        "text": "个人中心"
+    }]
+}
+}

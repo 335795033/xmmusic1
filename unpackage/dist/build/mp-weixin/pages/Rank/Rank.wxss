@@ -1,0 +1,33 @@
+
+.content{
+	width: 95%;
+	padding: .4rem auto 0;
+}
+.title{
+	font-size: 1rem;
+	font-weight: bold;
+	padding: .2rem 0 0 .4rem;
+}
+.uni-media-list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: .4rem;
+}
+.uni-media-list image{
+	width: 3rem;
+	height: 3rem;
+	-webkit-box-shadow: 1px 1px 5rpx #CCCCCC;
+	        box-shadow: 1px 1px 5rpx #CCCCCC;
+}
+.uni-media-list-text-top{
+	font-size: .8rem;
+	padding: .2rem .5rem;
+}
+.uni-media-list-text-bottom{
+	font-size: .6rem;
+	color: #999;
+	padding: .2rem .5rem;
+}
+

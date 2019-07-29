@@ -1,0 +1,35 @@
+
+.sheet{
+	width: 95%;
+	margin: 0 auto;
+}
+.sheet_item{
+	height: 6rem;
+	padding: .5rem 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.sheet_item image{
+	height: 100%;
+	width: 33%;
+}
+.sheet_item .text{
+	width: 60%;
+	padding: .5rem;
+}
+.sheet_item .text .title{
+	font-size: 1rem;
+}
+.sheet_item .text .name{
+	font-size: .8rem;
+	color: #999999;
+	padding: .2rem 0;
+}
+.sheet_item .text .time{
+	font-size: .5rem;
+	color: #6D6D72;
+}
+
+
